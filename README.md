@@ -1,7 +1,27 @@
-# IBM Full Stack Software Developer Project
+# github-final-project
 
-## Project Details
+## Project Name
 
-**Repository Name:** ibm-full-stack-development
+Simple Interest Calculator
 
-**Project Name:** IBM Full Stack Software Developer Course Project
+## Description
+
+This project calculates simple interest based on the principal amount, annual rate of interest, and time period.
+
+## Formula
+
+Simple Interest = (Principal × Rate × Time) / 100
+
+## Input
+
+* Principal amount
+* Annual rate of interest
+* Time period in years
+
+## Output
+
+The calculated simple interest.
+
+## Repository
+
+github-final-project
