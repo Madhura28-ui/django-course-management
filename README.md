@@ -1,27 +1,23 @@
-# github-final-project
+# Paradise Nursery
+
+Paradise Nursery is an online plant shopping application where customers can explore indoor and outdoor plants, view product details, and add plants to their shopping cart.
+
+## Features
+
+* Browse a variety of plants.
+* View plant details and prices.
+* Add plants to the shopping cart.
+* Increase or decrease product quantities.
+* Remove products from the cart.
+* View the total cost of selected plants.
+
+## Technologies Used
+
+* React.js
+* JavaScript
+* CSS
+* Redux Toolkit
 
 ## Project Name
 
-Simple Interest Calculator
-
-## Description
-
-This project calculates simple interest based on the principal amount, annual rate of interest, and time period.
-
-## Formula
-
-Simple Interest = (Principal × Rate × Time) / 100
-
-## Input
-
-* Principal amount
-* Annual rate of interest
-* Time period in years
-
-## Output
-
-The calculated simple interest.
-
-## Repository
-
-github-final-project
+Paradise Nursery
