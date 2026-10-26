@@ -1,29 +1,31 @@
-import React from "react";
-import "./App.css";
+import React, { useState } from "react";
+import "./app.css";
+import ProductList from "./ProductList";
 
 function App() {
-  const handleGetStarted = () => {
-    window.location.href = "/products";
-  };
+const [showProductList, setShowProductList] = useState(false);
 
-  return (
-    <div className="landing-page">
-      <div className="landing-content">
-        <h1>Paradise Nursery</h1>
+return ( <div className="app-container">
+{!showProductList ? ( <div className="background-image"> <div className="landing-content"> <h1>Welcome to Paradise Nursery</h1>
 
-        <p>
-          Bring Nature Home with Our Beautiful Collection of Plants.
-        </p>
+```
+        <p>Discover beautiful plants for your home.</p>
 
         <button
           className="get-started-btn"
-          onClick={handleGetStarted}
+          onClick={() => setShowProductList(true)}
         >
           Get Started
         </button>
       </div>
     </div>
-  );
+  ) : (
+    <ProductList />
+  )}
+</div>
+```
+
+);
 }
 
 export default App;
